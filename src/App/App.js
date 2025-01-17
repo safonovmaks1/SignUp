@@ -11,7 +11,7 @@ export const App = () => {
 
 	return (
 		<div className={styles.app}>
-			<button onClick={handleClick} class={styles.btn}>
+			<button onClick={handleClick} className={styles.btn}>
 				{toggle ? 'SignUp' : 'SignUp with React Hook Form'}
 			</button>
 
